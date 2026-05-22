@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.title {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    border-bottom: solid 2px gray;
+    font-size: 40px;
+}
+
+.startbuttons {
+    margin: 15px;
+    display: block;
+    text-align: center;
+}
+
+.quiztype {
+    font-size: 15px;
+}
+
+.startbutton {
+    width: 50%;
+    height: 50px;
+}
+
+.tips {
+    font-size: 15px;
+}
+
+.mainquiz {
+    display: none;
+}
+
+.question_div {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.question {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    text-overflow: initial;
+}
+
+.answer_div {
+    visibility: hidden;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.answer_div .result {
+    margin: 0;
+    font-size: 30px;
+}
+.answer_div .answer {
+    margin: 0;
+    font-size: 20px;
+}
+
+.timelim_div .timebar {
+    height: 30px;
+    margin-right: 0;
+    background-color: black;
+}
+
+.timelim_div .timetxt {
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+}
+
+.timelim_div .states {
+    display: flex;
+}
+
+.timelim_div .quizstate {
+    width: 50%;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+}
+
+.timelim_div .life {
+    width: 50%;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+.button {
+    text-align: center;
+}
+
+.gameresult {
+    text-align: center;
+}
+
+.gameresulttxt {
+    margin: 0;
+    font-size: 150px;
+    font-weight: bold;
+}
