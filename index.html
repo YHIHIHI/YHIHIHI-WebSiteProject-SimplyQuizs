@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>QUIZ</title>
+    </head>
+    <body>
+        <h1 class="title">くいず</h1>
+
+        <div class="startbuttons" id="startbuttons">
+            <p class="quiztype">ただの漢字クイズ</p>
+            <button class="startbutton" id="b_normal">はじめる</button>
+            <p class="quiztype">ボカロ(広義)クイズ</p>
+            <button class="startbutton" id="b_vocaloid">はじめる</button>
+            <p class="quiztype">太鼓の達人クイズ</p>
+            <button class="startbutton" id="b_taiko">はじめる</button>
+            <p class="quiztype">コナンクイズ</p>
+            <button class="startbutton" id="b_konan">はじめる</button>
+            <p class="tips" id="tips">tip:</p>
+        </div>
+        
+        <div class="mainquiz" id="mainquiz">
+            <div class="question_div">
+                <p class="question" id="question">問題</p>
+            </div>
+            <div class="button">
+                <input type="text" class="input" id="input" size="30" onpaste="return false;"/>
+                <button id="button">スキップ</button>
+            </div>
+
+            <div class="answer_div" id="answer_div">
+                <p class="result" id="result">正解</p>
+                <p class="answer" id="answer">問題 : もんだい</p>
+            </div>
+
+            <div class="timelim_div" id="timelim_div">
+                <p class="timetxt" id="timetxt">残り時間 : 3ヶ月</p>
+                <div class="timebar" id="timebar"></div>
+                <div class="states">
+                    <p class="quizstate" id="quizstate">問題 : 1/12 難易度 :1</p>
+                    <p class="life" id="life">HP : 3/3</p>
+                </div>
+            </div>
+            <div class="gameresult" id="gameresult">
+                <p class="gameresulttxt" id="gameresulttxt">結果</p>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="quizs.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
