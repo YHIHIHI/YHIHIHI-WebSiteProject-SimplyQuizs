@@ -16,6 +16,7 @@ let gameresulttxt = document.getElementById("gameresulttxt");
 let normalButton = document.getElementById("b_normal");
 let vocaloidButton = document.getElementById("b_vocaloid");
 let taikoButton = document.getElementById("b_taiko");
+let konanButton = document.getElementById("b_konan");
 
 let tip = document.getElementById("tips");
 let tips = ["入力する文字は全角ひらがなのみ。記号等も省略してね", "qを入力、送信することでスキップできる", "漢字でGOのパクリとか言わんでや", "これ見てるやつおる？"]
@@ -79,6 +80,14 @@ taikoButton.addEventListener("click", () => {
   quizAssets = TAIKO_QUIZ
   maxTime = 15 * 100
   maxQuizCount = 10
+  levelStage = 3
+  StartGame()
+})
+
+konanButton.addEventListener("click", () => {
+  quizAssets = KONAN_QUIZ
+  maxTime = 15 * 100
+  maxQuizCount = 15
   levelStage = 3
   StartGame()
 })
