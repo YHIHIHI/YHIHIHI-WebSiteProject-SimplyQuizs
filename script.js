@@ -171,7 +171,7 @@ function EndQuestion() {
       gameresulttxt.textContent = "クリアおめでとう！"
     }
     else {
-      gameresulttxt.textContent = "ゲームオーバー乙！"
+      gameresulttxt.textContent = "ゲームオーバー！"
     }
   }
   else {
